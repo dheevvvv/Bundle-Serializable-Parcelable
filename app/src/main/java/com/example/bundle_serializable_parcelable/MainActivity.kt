@@ -22,5 +22,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SerializableActivity::class.java)
             startActivity(intent)
         }
+
+        binding.filledButtonParcelable.setOnClickListener {
+            val intent = Intent(this, ParcelableActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
