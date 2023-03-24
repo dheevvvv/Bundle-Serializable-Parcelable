@@ -17,5 +17,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, BundleActivity::class.java)
             startActivity(intent)
         }
+
+        binding.filledButtonSerializable.setOnClickListener {
+            val intent = Intent(this, SerializableActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

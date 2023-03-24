@@ -12,6 +12,12 @@
         android:theme="@style/Theme.Bundle_Serializable_Parcelable"
         tools:targetApi="31">
         <activity
+            android:name=".ResultSerializableActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SerializableActivity"
+            android:exported="false" />
+        <activity
             android:name=".ResultBundleActivity"
             android:exported="false" />
         <activity
