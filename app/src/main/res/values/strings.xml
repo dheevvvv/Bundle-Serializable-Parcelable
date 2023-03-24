@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bundle_Serializable_Parcelable</string>
+    <string name="nama">Nama</string>
+    <string name="bundle">Bundle</string>
+    <string name="tahun_lahir">Tahun Lahir</string>
+    <string name="tugas_1_bundle">Tugas 1 Bundle</string>
+    <string name="tugas_2_serializable">Tugas 2 Serializable</string>
+    <string name="tugas_3_parcelable">Tugas 3 Parcelable</string>
+    <string name="save">Save</string>
+</resources>
